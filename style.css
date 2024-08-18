@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.sidebar{
+    min-width: 20%;
+    height: 100vh;
+    background-color: rgb(25,146,212);
+    
+}
+.container{
+    display: flex;
+}
+.logo{
+    display: grid;
+    grid-template-columns: 50px 50px;
+    align-items: center;
+    padding: 10px 0 0 20px;
+}
+.logo p{
+    font-size: 28px;
+    font-weight: bold;
+    color: #fff;
+}
+.svgLogo{
+    width: 50px;
+    height: 50px;
+    fill: #fff;
+}
+.navigation, .settings {
+    width: 100%;
+    display: grid;
+    padding: 50px 0 0 0;
+    gap: 10px;
+}
+.navBtn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: transparent;
+    outline: none;
+    border: none;   
+    height: 30px;
+    padding: 10px;
+    color: #fff;
+    overflow: hidden;
+}
+.navBtn:hover{
+    background-color: rgb(30,150,220);
+}
+.navBtn img{
+    height: 25px;
+    padding-left: 15px;
+    fill: white;
+    filter: drop-shadow(0px 100px 0 #ffffff);
+    transform: translateY(-100px);
+}
+.mainContent{
+    width: 100%;
+    
+}
+.header{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 15px 0px 0 15px;
+    column-gap: 250px;
+    padding-bottom: 15px;
+}
+.left{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    
+}
+#searchBtn, .bellBtn{
+    background-color: transparent;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+
+}
+#searchBtn:hover, .bellBtn:hover{
+    background-color: #f0eaea;
+}
+.searchBar{
+    min-width: 250px;
+    width: 660px;
+    height: 25px;
+    outline: none;
+    border-radius: 10px;
+    padding-left: 10px;
+    background-color: rgb(230, 229, 229);
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+.search, .bell{
+    width: 30px;
+    height: 30px;
+}
+.profilePic{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+}
+.subHeader{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    column-gap: 350px;
+    width: 100%;
+    padding:0 0 15px 25px;
+    box-shadow: 0px 25px 15px -20px rgba(0,0,0,0.45);
+}
+.greetings{
+    display: grid;
+    grid-template-columns: 75px 250px;
+    align-items: center;
+    gap: 15px;
+}
+.profileGreet{
+    width: 75px;
+    height: 75px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.btnField button{
+    width: 100px;
+    height: 35px;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    background-color: hsl(201, 79%, 46%);
+    color: white;
+    font-weight: 700;
+}
+.btnField{ 
+    display: flex;
+    gap: 25px;
+}
+.btnField button:hover{
+    cursor: pointer;
+    background-color:  hsl(205, 85%, 46%);
+}
+.mainContent{
+    min-height: 79.5%;
+    padding-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 25px;
+    width: 100%;
+    background-color: rgb(226,232,240);
+}
+.projectInfo .sectionInfo {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.projectsInfo{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 10px;
+}
+.projectsInfo .details{
+    font-size: 14px;
+}
+.projects{
+    width: 400px;
+    height: 180px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px  20px 0 20px;
+    border-left: 13px solid rgb(240,180,41);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.icons{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    padding-top: 20px;
+    gap: 10px;
+}
+.icons button{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.icons button{
+    align-self: flex-end;
+}
+.icons button img{
+    width: 25px;
+    height: 25px;
+
+}
